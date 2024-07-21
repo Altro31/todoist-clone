@@ -11,7 +11,7 @@ export function Header() {
                 <input className="invisible absolute" type="checkbox" id="dock" />
 
                 {/* @ts-ignore */}
-                <Button as="label" for="dock" isIconOnly className="rounded-lg size-fit hover:bg-gray-200" disableRipple>
+                <Button as="label" htmlFor="dock" isIconOnly className="rounded-lg size-fit hover:bg-gray-200" disableRipple>
                     <DockOutline className="size-6" />
                 </Button>
             </div>
