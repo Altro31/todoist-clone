@@ -6,7 +6,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './node_modules/@nextui-org/**/*.{js,ts,jsx,tsx}'
-  ],
+	],
   prefix: "",
   theme: {
     container: {
